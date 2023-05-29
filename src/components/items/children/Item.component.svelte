@@ -1,6 +1,6 @@
 <script lang="ts">
     import { createEventDispatcher } from 'svelte';
-    import type { IItem } from '@models/items/Item.interface'; 
+    import type { IItem } from '../../../models/items/Item.interface'; 
 
     export let testid: string = 'not-set';
     export let item: IItem = { id: -1, name: '', isSelected: false };
