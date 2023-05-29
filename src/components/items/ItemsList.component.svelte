@@ -1,5 +1,6 @@
 <script lang="ts">
-    export let items: any[] = [];
+    import type { IItem } from '../../models/items/Item.interface';
+    export let items: IItem[] = [];
 </script>
 
 <div>
